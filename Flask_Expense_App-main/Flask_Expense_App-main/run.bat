@@ -1,0 +1,9 @@
+@echo off
+echo Installing requirements...
+"C:\Users\naray\AppData\Local\Programs\Python\Python311\python.exe" -m pip install -r requirements.txt
+
+echo Setting up database...
+"C:\Users\naray\AppData\Local\Programs\Python\Python311\python.exe" setup_db.py
+
+echo Starting Flask application...
+"C:\Users\naray\AppData\Local\Programs\Python\Python311\python.exe" main.py 
